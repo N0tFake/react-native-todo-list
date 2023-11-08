@@ -1,12 +1,12 @@
 import { StyleSheet, Text, View } from 'react-native';
-import AppBar from './components/AppBar';
-import Title from './components/Title';
-import ListTasks from './components/ListTasks';
+import AppBar from '../../components/AppBar';
+import ListTasks from '../../components/ListTasks';
+import Title from '../../components/Title';
 export default function Home() {
 
   return (
     <>
-      <AppBar />
+      <AppBar title='Welcome'/>
       <View style={styles.container}>
         <Title />
         <ListTasks />

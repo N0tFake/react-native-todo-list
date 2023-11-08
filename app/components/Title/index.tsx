@@ -24,8 +24,8 @@ const styles = StyleSheet.create({
     flex: 0,
     flexDirection: "row",
     alignItems: "center",
-    margin: 10,
-    
+    marginStart: 15,
+    marginBottom: 20
   },
   textDayWeek: {
     fontSize: 30,
